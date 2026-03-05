@@ -18,8 +18,6 @@ void	ft_print_reverse_alphabet(void)
 	char	letter;
 
 	letter = 'z';
-
-	  do        
 	
 	while (letter >= 'a')
 	{
