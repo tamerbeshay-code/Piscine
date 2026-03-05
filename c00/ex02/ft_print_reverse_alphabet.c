@@ -1,12 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ex00.c                                             :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Tbeshay <tamer_karam@hotmail.com>          +#+  +:+       +#+        */
+/*   By: TBeshay <tamer_karam@hotmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/03/05 07:02:31 by vscode            #+#    #+#             */
-/*   Updated: 2026/03/05 07:13:46 by Tbeshay          ###   ########.fr       */
+/*   Created: 2026/03/05 08:10:21 by TBeshay           #+#    #+#             */
+/*   Updated: 2026/03/05 08:11:58 by TBeshay          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+
+
+void	ft_print_reverse_alphabet(void)
+{
+	char	letter;
+
+	letter = 'z';
+
+	
+	while (letter >= 'a')
+	{
+		
+		write(1, &letter, 1);
+
+		
+		letter--;
+	}
+}
+/* int	main(void)
+{
+	ft_print_reverse_alphabet();
+} */
