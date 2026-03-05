@@ -6,7 +6,8 @@
 	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.22",
 	"customizations": {
 		"vscode": {
-			"extensions": [
+			"extensions": 
+			[
 				"dalexhd.42-norminette",
 				"kube.42header",
 				"MariusvanWijk-JoppeKoers.codam-norminette-3",
