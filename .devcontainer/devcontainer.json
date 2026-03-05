@@ -8,23 +8,25 @@
 		"vscode": {
 			"extensions": [
 				"dalexhd.42-norminette",
-				"kube.42header"
+				"kube.42header",
+				"MariusvanWijk-JoppeKoers.codam-norminette-3",
+				"hroussea.42-norminette-v2"
 			]
 		}
 	}
 
-	// Features to add to the dev container. More info: https://containers.dev/features.
+ https://containers.dev/features.
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+ "postCreateCommand": "uname -a",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
 
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	https://aka.ms/dev-containers-non-root.
+	 "remoteUser": "root"
 }

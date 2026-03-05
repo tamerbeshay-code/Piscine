@@ -6,7 +6,7 @@
 /*   By: TBeshay <tamer_karam@hotmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/05 07:17:36 by Tbeshay           #+#    #+#             */
-/*   Updated: 2026/03/05 08:27:20 by TBeshay          ###   ########.fr       */
+/*   Updated: 2026/03/05 09:51:24 by TBeshay          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,8 @@ void	ft_print_alphabet(void)
 	   
 	while (letter <= 'z')
 	{
+		
+		
 		
 		write(1, &letter, 1);
 

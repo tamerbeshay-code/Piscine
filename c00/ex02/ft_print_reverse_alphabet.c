@@ -6,7 +6,7 @@
 /*   By: TBeshay <tamer_karam@hotmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/05 08:10:21 by TBeshay           #+#    #+#             */
-/*   Updated: 2026/03/05 08:11:58 by TBeshay          ###   ########.fr       */
+/*   Updated: 2026/03/05 10:43:45 by TBeshay          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ void	ft_print_reverse_alphabet(void)
 	letter = 'z';
 
 	
+	
 	while (letter >= 'a')
 	{
 		
@@ -29,6 +30,8 @@ void	ft_print_reverse_alphabet(void)
 		letter--;
 	}
 }
+
+
 /* int	main(void)
 {
 	ft_print_reverse_alphabet();

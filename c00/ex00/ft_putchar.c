@@ -6,7 +6,7 @@
 /*   By: TBeshay <tamer_karam@hotmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/05 07:14:20 by Tbeshay           #+#    #+#             */
-/*   Updated: 2026/03/05 08:46:04 by TBeshay          ###   ########.fr       */
+/*   Updated: 2026/03/05 10:22:07 by TBeshay          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,11 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
  
+
+
+
+
+
 int	main(void)
 {
 	ft_putchar('a');
