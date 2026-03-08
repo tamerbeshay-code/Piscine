@@ -1,0 +1,12 @@
+{
+	"42header.username": "TBeshay",
+	"42header.email": "tamer_karam@hotmail.com",
+	"42norminette.trace.server": "verbose",
+	"editor.defaultFormatter": "keyhr.42-c-format",
+	"editor.defaultFoldingRangeProvider": "ms-vscode.cpptools",
+	"notebook.defaultFormatter": "keyhr.42-c-format",
+	"C_Cpp.codeAnalysis.clangTidy.checks.enabled": [
+		"clang-analyzer-*",
+		"clang-analyzer-unix.*"
+	]
+}
