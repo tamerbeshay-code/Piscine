@@ -6,7 +6,7 @@
 /*   By: TBeshay <tamer_karam@hotmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/08 16:41:00 by TBeshay           #+#    #+#             */
-/*   Updated: 2026/03/08 18:22:25 by TBeshay          ###   ########.fr       */
+/*   Updated: 2026/03/08 19:37:16 by TBeshay          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,10 +65,18 @@ int main(int argc ,char **argv)
     int board[4][4];
     intviews[16];
     
-    
+    if (argc != 2 || !parse_input(argv[1],views))
+    {
+    write(1,"error\n" , 6);
+    return(1);
+    }
+ft_bzero(board, sizzeof(int) * 4 * 4);
+if (!solve (0,0,board,views))
+write(1, "error\n",6);
+else
+print_board(board);
+    return(0);
 }
-
-
 
 
 
