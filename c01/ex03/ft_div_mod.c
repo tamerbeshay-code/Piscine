@@ -6,9 +6,11 @@
 /*   By: TBeshay <tamer_karam@hotmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/10 16:06:06 by TBeshay           #+#    #+#             */
-/*   Updated: 2026/03/10 16:13:28 by TBeshay          ###   ########.fr       */
+/*   Updated: 2026/03/11 00:37:06 by TBeshay          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//#include <stdio.h>
 
 void ft_div_mod(int a, int b, int *div,, int *mod)
 {
@@ -16,3 +18,23 @@ void ft_div_mod(int a, int b, int *div,, int *mod)
 	*mod = a % b;
 
 }
+
+/* 
+int	main(void)
+{
+	int a = 45;
+	int b = 5;
+	int	v1 = 0;
+	int	v2 = 0;
+	int	*div = &v1;
+	int	*mod = &v2;
+
+	printf("Before ft_div_mod: \n");
+	printf("Pointer 'div' points to adress %p that has the value %d stored\n", div, *div);
+	printf("Pointer 'mod' points to adress %p that has the value %d stored\n", mod, *mod);
+	ft_div_mod(a, b, div, mod);
+	printf("\n");
+	printf("After ft_div_mod: \n");
+	printf("Pointer 'div' remains pointing to adress %p, but now that has the value %d stored\n", div, *div);
+	printf("Pointer 'mod' remains pointing to adress %p, but now that has the value %d stored\n", mod, *mod);
+} */
